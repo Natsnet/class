@@ -4,7 +4,14 @@
     - Align elements in the center of the body
 */
 
+body {
+    /* background red*/
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
 
+    
+}
 /* On all `div` elements, set the following properties:
     - Set a 1 pixel solid blue border
     - Change the display property to allow elements to be displayed inline (_and_ to change their width)
@@ -13,4 +20,48 @@
     - Set the padding to 20 pixels
     - Set the margin-top to 45% of the vertical height
 */
+div {
+    border: 1px dashed blue;
+    display: inline-block;
+    width: 15%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 45vh;
 
+}
+
+span.blue {
+    color: blue;
+    border: 1px solid brown;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+
+
+
+}
+span.yellow {
+    color: green;
+    border: 1px solid brown;
+    text-align: center;
+    width: 20%;
+    padding: 5px;
+
+}
+span.green {
+    color: green;
+    border: 1px solid brown;
+    text-align: center;
+    width: 20%;
+    padding: 5px;
+
+
+}
+span#pink {
+    color: pink;
+    border: 1px solid brown;
+    text-align: center;
+    width: 20%;
+    padding: 5px;
+}
